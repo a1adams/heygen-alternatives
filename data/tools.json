@@ -1,0 +1,273 @@
+{
+  "keyword": "heygen alternatives",
+  "title": "HeyGen Alternatives: 7 AI Avatar Video Tools Ranked by API (2026)",
+  "lastChecked": "2026-10-25",
+  "capabilityChecks": [
+    {
+      "key": "publicApi",
+      "label": "Public API"
+    },
+    {
+      "key": "mcpServer",
+      "label": "MCP server"
+    },
+    {
+      "key": "completionWebhook",
+      "label": "Completion webhook"
+    },
+    {
+      "key": "voiceCloning",
+      "label": "Voice cloning"
+    },
+    {
+      "key": "lipSync",
+      "label": "Lip sync"
+    },
+    {
+      "key": "manyLanguages",
+      "label": "Many languages"
+    },
+    {
+      "key": "customAvatar",
+      "label": "Custom avatar"
+    }
+  ],
+  "tools": [
+    {
+      "n": 1,
+      "name": "Wireflow",
+      "tagline": "Best overall for running an avatar model, a voice and the edit in one API call",
+      "homepage": "https://www.wireflow.ai/",
+      "docs": "https://www.wireflow.ai/docs/api/overview",
+      "pricing": "https://www.wireflow.ai/pricing",
+      "claudeConnection": "Custom connector, OAuth sign-in",
+      "restApi": true,
+      "modelSupport": "Avatar, lip sync and voice models as nodes, among 100+ models",
+      "freeTier": "unverified",
+      "repo": null,
+      "note": null,
+      "quickstart": [
+        {
+          "label": "Add the Wireflow connector to Claude Code, from the wireflowINC/skills README. Then run /mcp to sign in.",
+          "lang": "bash",
+          "code": "claude mcp add --transport http wireflow https://www.wireflow.ai/api/mcp"
+        },
+        {
+          "label": "Or run a saved board from code: send its input values to this endpoint with an API key, then poll the execution or add a webhook block. The request format is in the API reference linked under Docs.",
+          "lang": "text",
+          "code": "POST /api/v1/workflows/{id}/run"
+        }
+      ],
+      "moneyPage": "https://www.wireflow.ai/features/ai-video-workflow",
+      "moneyPageLabel": "Wireflow AI video workflow page",
+      "capabilities": {
+        "publicApi": true,
+        "mcpServer": true,
+        "completionWebhook": true,
+        "voiceCloning": true,
+        "lipSync": true,
+        "manyLanguages": true,
+        "customAvatar": true
+      },
+      "live": {
+        "stars": null,
+        "lastPush": null,
+        "latestRelease": null,
+        "latestReleaseDate": null,
+        "checkedAt": null
+      }
+    },
+    {
+      "n": 2,
+      "name": "Hedra",
+      "tagline": "Best for talking-character video with a full developer API",
+      "homepage": "https://www.hedra.com/",
+      "docs": "https://www.hedra.com/docs/index.md",
+      "pricing": "https://www.hedra.com/pricing",
+      "claudeConnection": null,
+      "restApi": true,
+      "modelSupport": "Hedra models plus partner models such as ElevenLabs",
+      "freeTier": "unverified",
+      "repo": "hedra-labs/hedra-python",
+      "note": "The linked repository is the official Python SDK for API v3. API usage is paid from a USD API wallet, separate from the studio credits.",
+      "quickstart": [
+        {
+          "label": "Install the official Python SDK, from Hedra's SDK page (the TypeScript SDK is npm install @hedra/sdk and the CLI is npm install --global @hedra/cli).",
+          "lang": "bash",
+          "code": "pip install hedra-sdk"
+        }
+      ],
+      "capabilities": {
+        "publicApi": true,
+        "mcpServer": null,
+        "completionWebhook": true,
+        "voiceCloning": true,
+        "lipSync": null,
+        "manyLanguages": null,
+        "customAvatar": null
+      },
+      "live": {
+        "stars": 5,
+        "lastPush": "2026-10-22T21:07:15Z",
+        "latestRelease": "v7.0.0",
+        "latestReleaseDate": "2026-09-29",
+        "checkedAt": "2026-10-25"
+      }
+    },
+    {
+      "n": 3,
+      "name": "MakeUGC",
+      "tagline": "Best for UGC-style ads with AI actors on any plan",
+      "homepage": "https://makeugc.ai/",
+      "docs": null,
+      "pricing": "https://makeugc.ai/pricing",
+      "claudeConnection": "MCP access on every plan",
+      "restApi": true,
+      "modelSupport": null,
+      "freeTier": "unverified",
+      "repo": null,
+      "note": "Each plan can be tried for $1. API access is included in every plan and shares the plan's credits.",
+      "quickstart": null,
+      "capabilities": {
+        "publicApi": true,
+        "mcpServer": true,
+        "completionWebhook": null,
+        "voiceCloning": null,
+        "lipSync": null,
+        "manyLanguages": true,
+        "customAvatar": true
+      },
+      "live": {
+        "stars": null,
+        "lastPush": null,
+        "latestRelease": null,
+        "latestReleaseDate": null,
+        "checkedAt": null
+      }
+    },
+    {
+      "n": 4,
+      "name": "Topview",
+      "tagline": "Best for avatar and product marketing videos",
+      "homepage": "https://www.topview.ai/",
+      "docs": null,
+      "pricing": "https://www.topview.ai/pricing",
+      "claudeConnection": "MCP from the Plus plan",
+      "restApi": true,
+      "modelSupport": null,
+      "freeTier": "unverified",
+      "repo": null,
+      "note": "On Ultra and Team, plan credits cannot be used for API calls (checked 2026-10-11).",
+      "quickstart": null,
+      "capabilities": {
+        "publicApi": true,
+        "mcpServer": true,
+        "completionWebhook": null,
+        "voiceCloning": null,
+        "lipSync": null,
+        "manyLanguages": null,
+        "customAvatar": null
+      },
+      "live": {
+        "stars": null,
+        "lastPush": null,
+        "latestRelease": null,
+        "latestReleaseDate": null,
+        "checkedAt": null
+      }
+    },
+    {
+      "n": 5,
+      "name": "Arcads",
+      "tagline": "Best for performance ads with a large actor library",
+      "homepage": "https://www.arcads.ai/",
+      "docs": null,
+      "pricing": null,
+      "claudeConnection": null,
+      "restApi": true,
+      "modelSupport": "Seedance 2.5, Seedream, Nano Banana, GPT Image and Kling",
+      "freeTier": "unverified",
+      "repo": null,
+      "note": "No plan price is published and the /pricing URL returned 404 on 2026-10-11. The homepage footer lists AI Video API and Lip Sync API pages.",
+      "quickstart": null,
+      "capabilities": {
+        "publicApi": true,
+        "mcpServer": null,
+        "completionWebhook": null,
+        "voiceCloning": null,
+        "lipSync": true,
+        "manyLanguages": null,
+        "customAvatar": null
+      },
+      "live": {
+        "stars": null,
+        "lastPush": null,
+        "latestRelease": null,
+        "latestReleaseDate": null,
+        "checkedAt": null
+      }
+    },
+    {
+      "n": 6,
+      "name": "Rask AI",
+      "tagline": "Best for dubbing finished videos into many languages",
+      "homepage": "https://www.rask.ai/",
+      "docs": null,
+      "pricing": "https://www.rask.ai/pricing",
+      "claudeConnection": null,
+      "restApi": true,
+      "modelSupport": null,
+      "freeTier": "unverified",
+      "repo": null,
+      "note": "Plan prices were not in the page text on 2026-10-12, and the page says prices are changing soon.",
+      "quickstart": null,
+      "capabilities": {
+        "publicApi": true,
+        "mcpServer": null,
+        "completionWebhook": null,
+        "voiceCloning": true,
+        "lipSync": true,
+        "manyLanguages": true,
+        "customAvatar": null
+      },
+      "live": {
+        "stars": null,
+        "lastPush": null,
+        "latestRelease": null,
+        "latestReleaseDate": null,
+        "checkedAt": null
+      }
+    },
+    {
+      "n": 7,
+      "name": "Captions",
+      "tagline": "Best for editing talking-head video on a phone",
+      "homepage": "https://captions.ai/",
+      "docs": null,
+      "pricing": "https://www.captions.ai/pricing",
+      "claudeConnection": null,
+      "restApi": null,
+      "modelSupport": null,
+      "freeTier": "yes",
+      "repo": null,
+      "note": "Prices on the pricing page reflect iOS plans only (checked 2026-10-11).",
+      "quickstart": null,
+      "capabilities": {
+        "publicApi": null,
+        "mcpServer": null,
+        "completionWebhook": null,
+        "voiceCloning": null,
+        "lipSync": null,
+        "manyLanguages": null,
+        "customAvatar": true
+      },
+      "live": {
+        "stars": null,
+        "lastPush": null,
+        "latestRelease": null,
+        "latestReleaseDate": null,
+        "checkedAt": null
+      }
+    }
+  ]
+}
