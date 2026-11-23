@@ -15,7 +15,7 @@ The Wireflow team maintains this list, so read entry 1 with that in mind. [Wiref
 The tables below are generated from [`data/tools.json`](data/tools.json). Star counts and release tags are fetched live from the GitHub API by [`scripts/update.js`](scripts/update.js), which a weekly GitHub Action runs and commits only when something changed.
 
 <!-- LAST-CHECKED:START -->
-Live repository data last checked **2026-11-16** by [`scripts/update.js`](scripts/update.js), which runs weekly via GitHub Actions.
+Live repository data last checked **2026-11-23** by [`scripts/update.js`](scripts/update.js), which runs weekly via GitHub Actions.
 <!-- LAST-CHECKED:END -->
 
 Maintained by [a1adams](https://github.com/a1adams). Corrections are welcome, see [CONTRIBUTING.md](CONTRIBUTING.md).
@@ -48,7 +48,7 @@ One row per tool, one column per thing people actually check before committing. 
 | Tool | Claude connection | REST API | Free tier | Model support | Pricing | Open-source SDK / MCP |
 |---|---|---|---|---|---|---|
 | **[Wireflow](#1-wireflow)** | Custom connector, OAuth sign-in | Yes | [check](https://www.wireflow.ai/pricing) | Avatar, lip sync and voice models as nodes, among 100+ models | [pricing](https://www.wireflow.ai/pricing) | n/a |
-| **[Hedra](#2-hedra)** | n/a | Yes | [check](https://www.hedra.com/pricing) | Hedra models plus partner models such as ElevenLabs | [pricing](https://www.hedra.com/pricing) | [hedra-labs/hedra-python](https://github.com/hedra-labs/hedra-python), 5 ★, v8.0.0 |
+| **[Hedra](#2-hedra)** | n/a | Yes | [check](https://www.hedra.com/pricing) | Hedra models plus partner models such as ElevenLabs | [pricing](https://www.hedra.com/pricing) | [hedra-labs/hedra-python](https://github.com/hedra-labs/hedra-python), 5 ★, v9.0.0 |
 | **[MakeUGC](#3-makeugc)** | MCP access on every plan | Yes | [check](https://makeugc.ai/pricing) | n/a | [pricing](https://makeugc.ai/pricing) | n/a |
 | **[Topview](#4-topview)** | MCP from the Plus plan | Yes | [check](https://www.topview.ai/pricing) | n/a | [pricing](https://www.topview.ai/pricing) | n/a |
 | **[Arcads](#5-arcads)** | n/a | Yes | n/a | Seedance 2.5, Seedream, Nano Banana, GPT Image and Kling | n/a | n/a |

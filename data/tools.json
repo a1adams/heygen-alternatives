@@ -1,7 +1,7 @@
 {
   "keyword": "heygen alternatives",
   "title": "HeyGen Alternatives: 7 AI Avatar Video Tools Ranked by API (2026)",
-  "lastChecked": "2026-11-16",
+  "lastChecked": "2026-11-23",
   "capabilityChecks": [
     {
       "key": "publicApi",
@@ -108,10 +108,10 @@
       },
       "live": {
         "stars": 5,
-        "lastPush": "2026-11-14T17:33:16Z",
-        "latestRelease": "v8.0.0",
-        "latestReleaseDate": "2026-11-11",
-        "checkedAt": "2026-11-16"
+        "lastPush": "2026-11-20T01:19:09Z",
+        "latestRelease": "v9.0.0",
+        "latestReleaseDate": "2026-11-17",
+        "checkedAt": "2026-11-23"
       }
     },
     {
